@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+  background-color: rgb(170, 19, 19);
+  margin-top: 0%;
+  padding: 2%;
+}
+
+.navbarLinks {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-shadow: 3px 3px 12px rgb(0, 0, 0);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(170, 19, 19);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 1.5%;
+}
+
+.footerTitle {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0%;
+  text-shadow: 3px 3px 12px rgb(0, 0, 0);
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainPhoto {
+  margin-bottom: 2%;
+}
+
+.getQuoteButton {
+  margin-bottom: 2%;
+  width: 30%;
+  font-size: 2em;
+  border: 1px solid rgb(170, 19, 19);
+  cursor: pointer;
+}
+
+.freshConcreteImg {
+  margin-bottom: 2%;
+  width: 30vw;
+  /* height: 60vh; */
+}
+
+.businessHoursHeading {
+  margin: 0%;
+}
+
+.hours {
+  margin: 0%;
+}
+
+.sunHours {
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+.address {
+  margin: 0%;
+}
+
+.usAddress {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.addressHeading {
+  margin-bottom: 0%;
+}
+
+.getDirButton {
+  margin-bottom: 2%;
+  margin-top: 1%;
+  width: 30%;
+  font-size: 2em;
+  border: 1px solid rgb(170, 19, 19);
+  cursor: pointer;
+}
+
+.googleMaps {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  box-shadow: 3px 3px 12px rgb(0, 0, 0);
+}
+
+button {
+  box-shadow: 3px 3px 12px rgb(0, 0, 0);
+}
